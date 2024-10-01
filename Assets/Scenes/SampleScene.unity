@@ -9242,6 +9242,7 @@ MonoBehaviour:
   speedMove: 10
   jumpPower: 10
   sprtRnd: {fileID: 1228688415}
+  animPlayer: {fileID: 1228688414}
 --- !u!1 &1631269019
 GameObject:
   m_ObjectHideFlags: 0
