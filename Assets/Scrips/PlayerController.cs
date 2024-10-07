@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -47,7 +48,7 @@ public class player : MonoBehaviour
         }
         else {
             animPlayer.SetBool("isGrounded", false);
-            Debug.Log("adiosssss");
+            
         }
         
         rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
@@ -73,8 +74,12 @@ public class player : MonoBehaviour
     }
 
     public void jump() {
-        if (checkGround.isGrounded) {
+        if (checkGround.isGrounded)
+        {
             Debug.Log("hola");
+        }
+        else {
+            Debug.Log("no funciona");
         }
         rb.velocity = new Vector2(rb.velocity.x, jumpPower);
     }
