@@ -25,6 +25,7 @@ public class player : MonoBehaviour
     void FixedUpdate()
     {
         checkMovement();
+        Debug.Log(checkGround.isGrounded);
     }
 
     
@@ -76,12 +77,13 @@ public class player : MonoBehaviour
     public void jump() {
         if (checkGround.isGrounded)
         {
-            Debug.Log("hola");
+            Debug.Log("Salto");
+            rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
         else {
             Debug.Log("no funciona");
         }
-        rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+        
     }
 
 
