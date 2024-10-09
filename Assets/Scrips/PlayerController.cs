@@ -12,9 +12,15 @@ public class player : MonoBehaviour
     public float jumpPower;
     public SpriteRenderer sprtRnd;
     public Animator animPlayer;
+    public GameObject flechaPrfab;
+
 
     private float horizontal;
     private bool isFacingRight = true;
+    private Vector2 directionFlecha;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +31,7 @@ public class player : MonoBehaviour
     void FixedUpdate()
     {
         checkMovement();
-        Debug.Log(checkGround.isGrounded);
+        
     }
 
     
@@ -43,7 +49,7 @@ public class player : MonoBehaviour
 
         if (checkGround.isGrounded)
         {
-            Debug.Log("holaaaaa2");
+           
             rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
             animPlayer.SetBool("isGrounded", true);
         }
@@ -77,14 +83,37 @@ public class player : MonoBehaviour
     public void jump() {
         if (checkGround.isGrounded)
         {
-            Debug.Log("Salto");
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
-        else {
-            Debug.Log("no funciona");
+    }
+
+    /***
+     * en la escena se genera un GameObject flecha que sera el prefab de la flecha 
+     * 
+     * arrowController es el script del prefab, setDirection es del script 
+     * 
+     * gameObject generara una flecha en la escena, 
+     **/
+    public void Shoot()
+    {
+       // Debug.Log("bang");
+        GameObject flecha = Instantiate(flechaPrfab, transform.position, Quaternion.identity);
+
+        if (sprtRnd.flipX)
+        { //el personaje mira hacia la izquierda
+            directionFlecha = Vector2.left;
+
+        }
+        else
+        { //el personaje mira hacia la derecha
+            directionFlecha = Vector2.right;
         }
         
+        flecha.GetComponent<arrowController>().setDirection(directionFlecha );
+
+
     }
+
 
 
 }

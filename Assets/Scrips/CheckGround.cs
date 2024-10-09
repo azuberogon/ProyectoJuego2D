@@ -10,13 +10,13 @@ public class checkGround : MonoBehaviour
   public void OnTriggerEnter2D(Collider2D collision)
     {
         isGrounded = true;
-        Debug.Log(isGrounded);
+
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
         isGrounded = false;
-        Debug.Log(isGrounded);
+       
     }
 
 
