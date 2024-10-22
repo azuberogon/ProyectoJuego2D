@@ -9502,7 +9502,6 @@ GameObject:
   - component: {fileID: 1228688412}
   - component: {fileID: 1228688418}
   - component: {fileID: 1228688417}
-  - component: {fileID: 1228688419}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9757,19 +9756,7 @@ MonoBehaviour:
   sprtRnd: {fileID: 1228688415}
   animPlayer: {fileID: 1228688414}
   flechaPrfab: {fileID: 5892900500679912357, guid: 16c970f1fbb54af4cb9be7fb4bc99776, type: 3}
---- !u!114 &1228688419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228688411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8891c6b25fc10834698057f044eee1c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedArrow: 2
+  tiempoDeEspera: 0.75
 --- !u!1 &1250726771
 GameObject:
   m_ObjectHideFlags: 0

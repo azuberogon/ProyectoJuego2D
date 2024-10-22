@@ -13,11 +13,13 @@ public class player : MonoBehaviour
     public SpriteRenderer sprtRnd;
     public Animator animPlayer;
     public GameObject flechaPrfab;
-
+    public float tiempoDeEspera;
 
     private float horizontal;
     private bool isFacingRight = true;
     private Vector2 directionFlecha;
+    private float disparoPasado;
+    
 
 
 
@@ -96,21 +98,26 @@ public class player : MonoBehaviour
      **/
     public void Shoot()
     {
-       // Debug.Log("bang");
-        GameObject flecha = Instantiate(flechaPrfab, transform.position, Quaternion.identity);
+        if (Time.time > disparoPasado + tiempoDeEspera){
+            // Debug.Log("bang");
+            GameObject flecha = Instantiate(flechaPrfab, transform.position, Quaternion.identity);
 
-        if (sprtRnd.flipX)
-        { //el personaje mira hacia la izquierda
-            directionFlecha = Vector2.left;
+            if (sprtRnd.flipX)
+            { //el personaje mira hacia la izquierda
+                directionFlecha = Vector2.left;
+                Debug.Log(directionFlecha);
 
+            }
+            else
+            { //el personaje mira hacia la derecha
+                directionFlecha = Vector2.right;
+                Debug.Log(directionFlecha);
+            }
+
+            flecha.GetComponent<arrowController>().setDirection(directionFlecha);
+            disparoPasado = Time.time;
         }
-        else
-        { //el personaje mira hacia la derecha
-            directionFlecha = Vector2.right;
-        }
-        
-        flecha.GetComponent<arrowController>().setDirection(directionFlecha );
-
+       
 
     }
 
