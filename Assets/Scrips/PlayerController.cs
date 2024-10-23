@@ -14,6 +14,8 @@ public class player : MonoBehaviour
     public Animator animPlayer;
     public GameObject flechaPrfab;
     public float tiempoDeEspera;
+    public GameObject arrowOut;
+    public AudioSource audioDisparo;
 
     private float horizontal;
     private bool isFacingRight = true;
@@ -89,6 +91,16 @@ public class player : MonoBehaviour
         }
     }
 
+    public void shootAnimation()
+    {
+        if (Time.time > disparoPasado + tiempoDeEspera)
+        {
+            animPlayer.SetTrigger("shoot");
+            horizontal = 0f;
+            disparoPasado = Time.time;
+            audioDisparo.Play();
+        }
+    }
     /***
      * en la escena se genera un GameObject flecha que sera el prefab de la flecha 
      * 
@@ -98,9 +110,9 @@ public class player : MonoBehaviour
      **/
     public void Shoot()
     {
-        if (Time.time > disparoPasado + tiempoDeEspera){
+            animPlayer.SetTrigger("shoot");
             // Debug.Log("bang");
-            GameObject flecha = Instantiate(flechaPrfab, transform.position, Quaternion.identity);
+            GameObject flecha = Instantiate(flechaPrfab, arrowOut.transform.position, Quaternion.identity);
 
             if (sprtRnd.flipX)
             { //el personaje mira hacia la izquierda
@@ -115,10 +127,6 @@ public class player : MonoBehaviour
             }
 
             flecha.GetComponent<arrowController>().setDirection(directionFlecha);
-            disparoPasado = Time.time;
-        }
-       
-
     }
 
 
