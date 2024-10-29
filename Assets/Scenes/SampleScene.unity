@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 205996182}
   - component: {fileID: 205996183}
+  - component: {fileID: 205996184}
   m_Layer: 3
   m_Name: AreaAttack
   m_TagString: Untagged
@@ -190,6 +191,34 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &205996184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205996181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7fee4fc8888cb5418725a417106e6af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo1Animator: {fileID: 0}
+  isAttacking:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1478551756}
+        m_TargetAssemblyTypeName: ControladorMalo1, Assembly-CSharp
+        m_MethodName: attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &232846989
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +232,7 @@ GameObject:
   - component: {fileID: 232846991}
   m_Layer: 0
   m_Name: SueloFalso
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7983,7 +8012,7 @@ GameObject:
   - component: {fileID: 920514951}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15774,6 +15803,7 @@ GameObject:
   - component: {fileID: 1478551753}
   - component: {fileID: 1478551752}
   - component: {fileID: 1478551751}
+  - component: {fileID: 1478551756}
   - component: {fileID: 1478551755}
   m_Layer: 3
   m_Name: Mago (malo1)
@@ -15932,7 +15962,22 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1478551756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478551750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b4a84c850dd564c88aeea0a70434b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1228688411}
+  rb: {fileID: 1478551755}
+  speedmalo: 2
 --- !u!1 &1631269019
 GameObject:
   m_ObjectHideFlags: 0

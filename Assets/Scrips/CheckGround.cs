@@ -7,15 +7,23 @@ public class checkGround : MonoBehaviour
 {
   public static bool isGrounded; //debe ser estatico porque sino no te deja invocarlo en otra clase
 
-  public void OnTriggerEnter2D(Collider2D collision)
+  private void OnTriggerEnter2D(Collider2D other)
     {
-        isGrounded = true;
+        if (other.gameObject.CompareTag("suelo")) {
+            isGrounded = true;
+        }
+        
 
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        isGrounded = false;
+
+        if (other.gameObject.CompareTag("suelo"))
+        {
+            isGrounded = false;
+        }
+        
        
     }
 
