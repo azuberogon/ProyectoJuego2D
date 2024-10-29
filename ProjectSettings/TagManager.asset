@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - suelo
+  - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,9 +14,9 @@ TagManager:
   - player
   - Water
   - UI
-  - suelo
-  - 
-  - 
+  - Enemy
+  - Suelo
+  - backGround
   - 
   - 
   - 
@@ -41,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3729349643
+    locked: 0
+  - name: Decors
+    uniqueID: 3093214619
+    locked: 0
+  - name: Ground
+    uniqueID: 2315701233
+    locked: 0
+  - name: backGround
+    uniqueID: 3194579385
     locked: 0
