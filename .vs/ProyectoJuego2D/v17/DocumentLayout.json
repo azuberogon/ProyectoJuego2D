@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aitor\\Documents\\clases 2024-2025\\juego 2d\\ProyectoJuego2D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\aitor\\documents\\clases 2024-2025\\juego 2d\\proyectojuego2d\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\aitor\\documents\\clases 2024-2025\\juego 2d\\proyectojuego2d\\assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckGround.cs",
+              "DocumentMoniker": "C:\\Users\\aitor\\Documents\\clases 2024-2025\\juego 2d\\ProyectoJuego2D\\Assets\\Scrips\\CheckGround.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\CheckGround.cs",
+              "ToolTip": "C:\\Users\\aitor\\Documents\\clases 2024-2025\\juego 2d\\ProyectoJuego2D\\Assets\\Scrips\\CheckGround.cs",
+              "RelativeToolTip": "Assets\\Scrips\\CheckGround.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:48:04.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\aitor\\Documents\\clases 2024-2025\\juego 2d\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\aitor\\Documents\\clases 2024-2025\\juego 2d\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:25:43.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
