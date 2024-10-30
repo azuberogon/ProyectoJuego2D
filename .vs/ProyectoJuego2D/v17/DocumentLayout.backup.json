@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\chuna\\docuemtnos 2\\pmdm\\ut 2 (videojuego)\\test1 videojuego\\proyectojuego2d\\assets\\scrips\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\chuna\\docuemtnos 2\\pmdm\\ut 2 (videojuego)\\test1 videojuego\\proyectojuego2d\\assets\\scrips\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ControladorMalo1.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ControladorMalo1.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\ControladorMalo1.cs",
@@ -38,25 +38,24 @@
               "RelativeToolTip": "Assets\\Scrips\\ControladorMalo1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:47:58.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T18:47:58.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\EnemyAttack.cs",
               "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\EnemyAttack.cs",
               "RelativeToolTip": "Assets\\Scrips\\EnemyAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T18:26:54.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CheckGround.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\CheckGround.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CheckGround.cs",
@@ -68,15 +67,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
               "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAASwH0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:25:43.373Z"
+              "WhenOpened": "2024-10-25T15:25:43.373Z",
+              "EditorCaption": ""
             }
           ]
         }

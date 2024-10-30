@@ -117,13 +117,13 @@ public class player : MonoBehaviour
             if (sprtRnd.flipX)
             { //el personaje mira hacia la izquierda
                 directionFlecha = Vector2.left;
-                Debug.Log(directionFlecha);
+            
 
             }
             else
             { //el personaje mira hacia la derecha
                 directionFlecha = Vector2.right;
-                Debug.Log(directionFlecha);
+                
             }
 
             flecha.GetComponent<arrowController>().setDirection(directionFlecha);

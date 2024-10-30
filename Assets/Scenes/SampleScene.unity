@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7fee4fc8888cb5418725a417106e6af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigo1Animator: {fileID: 0}
+  enemigo1Animator: {fileID: 1478551752}
   isAttacking:
     m_PersistentCalls:
       m_Calls:
