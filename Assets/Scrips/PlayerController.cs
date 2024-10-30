@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
@@ -16,6 +18,8 @@ public class player : MonoBehaviour
     public float tiempoDeEspera;
     public GameObject arrowOut;
     public AudioSource audioDisparo;
+    public AudioSource sonidoSaltar;
+    public UnityEvent loadNewScene;
 
     private float horizontal;
     private bool isFacingRight = true;
@@ -96,7 +100,7 @@ public class player : MonoBehaviour
         if (Time.time > disparoPasado + tiempoDeEspera)
         {
             animPlayer.SetTrigger("shoot");
-            horizontal = 0f;
+            //horizontal = 0f;
             disparoPasado = Time.time;
             audioDisparo.Play();
         }
@@ -110,7 +114,7 @@ public class player : MonoBehaviour
      **/
     public void Shoot()
     {
-            animPlayer.SetTrigger("shoot");
+            
             // Debug.Log("bang");
             GameObject flecha = Instantiate(flechaPrfab, arrowOut.transform.position, Quaternion.identity);
 
@@ -127,6 +131,22 @@ public class player : MonoBehaviour
             }
 
             flecha.GetComponent<arrowController>().setDirection(directionFlecha);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //opther no se esta incializando cuando se llama le da un error con un valor nullo 
+        if ( other.gameObject.CompareTag("Enemy"))// || other.gameObject.CompareTag("Pinchos")
+        {
+            animPlayer.SetTrigger("death");
+            ldScene();
+            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
+
+    private void ldScene() {
+        loadNewScene.Invoke();
     }
 
 

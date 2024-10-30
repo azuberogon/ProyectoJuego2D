@@ -22,7 +22,7 @@ public class EnemyAttack : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player")) {
-            enemigo1Animator.SetBool("attack", true);
+            enemigo1Animator.SetBool("Attack", true);
             isAttacking.Invoke();
         }
         
