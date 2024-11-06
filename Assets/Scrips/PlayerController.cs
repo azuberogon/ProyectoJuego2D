@@ -139,7 +139,7 @@ public class player : MonoBehaviour
         if ( other.gameObject.CompareTag("Enemy"))// || other.gameObject.CompareTag("Pinchos")
         {
             animPlayer.SetTrigger("death");
-            ldScene();
+            
             // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
