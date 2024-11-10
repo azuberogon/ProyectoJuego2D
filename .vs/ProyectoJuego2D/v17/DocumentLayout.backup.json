@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\chuna\\docuemtnos 2\\pmdm\\ut 2 (videojuego)\\test1 videojuego\\proyectojuego2d\\assets\\scrips\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\enemigo\\controladores nuevos\\seguirjugadorarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemigo\\controladores nuevos\\seguirjugadorarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|c:\\users\\chuna\\docuemtnos 2\\pmdm\\ut 2 (videojuego)\\test1 videojuego\\proyectojuego2d\\assets\\scrips\\suelofalso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\suelofalso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\enemigo\\controladores antiguos\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemigo\\controladores antiguos\\controladormalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\checkground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\enemigo\\controladores antiguos\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\enemigo\\controladores antiguos\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\scennemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\scennemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ControladorMalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\ControladorMalo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\assets\\scrips\\arrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DCAA4BB-27FD-05F4-6768-77B0FFFC79C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scrips\\arrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\SueloFalso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\SueloFalso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ArrowController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\ArrowController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ScenneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\ScenneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\EnemyAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\EnemyAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\CheckGround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scrips\\CheckGround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,36 +54,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SueloFalso.cs",
-              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\SueloFalso.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\SueloFalso.cs",
-              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\SueloFalso.cs",
-              "RelativeToolTip": "Assets\\Scrips\\SueloFalso.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scrips\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:07:59.935Z",
+              "WhenOpened": "2024-11-10T12:44:38.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArrowController.cs",
-              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ArrowController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\ArrowController.cs",
-              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ArrowController.cs",
-              "RelativeToolTip": "Assets\\Scrips\\ArrowController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores antiguos\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\enemigo\\controladores antiguos\\EnemyAttack.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores antiguos\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Scrips\\enemigo\\controladores antiguos\\EnemyAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:36:02.387Z"
+              "WhenOpened": "2024-11-10T12:35:46.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ControladorMalo1.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores antiguos\\ControladorMalo1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\enemigo\\controladores antiguos\\ControladorMalo1.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores antiguos\\ControladorMalo1.cs",
+              "RelativeToolTip": "Assets\\Scrips\\enemigo\\controladores antiguos\\ControladorMalo1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:30:12.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeguirJugadorArea.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores nuevos\\SeguirJugadorArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\enemigo\\controladores nuevos\\SeguirJugadorArea.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\enemigo\\controladores nuevos\\SeguirJugadorArea.cs",
+              "RelativeToolTip": "Assets\\Scrips\\enemigo\\controladores nuevos\\SeguirJugadorArea.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwN0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T11:05:09.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ScenneManager.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ScenneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\ScenneManager.cs",
@@ -79,20 +119,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:25:43.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArrowController.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ArrowController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\ArrowController.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ArrowController.cs",
+              "RelativeToolTip": "Assets\\Scrips\\ArrowController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:36:02.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SueloFalso.cs",
+              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\SueloFalso.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrips\\SueloFalso.cs",
+              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\SueloFalso.cs",
+              "RelativeToolTip": "Assets\\Scrips\\SueloFalso.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:07:59.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ControladorMalo1.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ControladorMalo1.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\ControladorMalo1.cs",
               "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\ControladorMalo1.cs",
               "RelativeToolTip": "Assets\\Scrips\\ControladorMalo1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:47:58.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T18:47:58.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\EnemyAttack.cs",
@@ -100,12 +173,11 @@
               "RelativeToolTip": "Assets\\Scrips\\EnemyAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:26:54.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T18:26:54.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CheckGround.cs",
               "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\CheckGround.cs",
               "RelativeDocumentMoniker": "Assets\\Scrips\\CheckGround.cs",
@@ -114,18 +186,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T15:48:04.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scrips\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\chuna\\docuemtnos 2\\pmdm\\UT 2 (videojuego)\\test1 videojuego\\ProyectoJuego2D\\Assets\\Scrips\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scrips\\PlayerController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAjwJkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T15:25:43.373Z"
             }
           ]
         }

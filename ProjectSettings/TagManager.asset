@@ -46,15 +46,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 3729349643
-    locked: 0
-  - name: Decors
-    uniqueID: 3093214619
+  - name: backGround
+    uniqueID: 3194579385
     locked: 0
   - name: Ground
     uniqueID: 2315701233
     locked: 0
-  - name: backGround
-    uniqueID: 3194579385
+  - name: decors2T
+    uniqueID: 3937937745
+    locked: 0
+  - name: Decors
+    uniqueID: 3093214619
+    locked: 0
+  - name: Player
+    uniqueID: 3729349643
     locked: 0

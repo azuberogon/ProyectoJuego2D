@@ -32,7 +32,7 @@ public class EnemyAttack : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            enemigo1Animator.SetBool("attack", false);
+            enemigo1Animator.SetBool("Attack", false);
         }
     }
 }

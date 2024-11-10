@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
-
     public Rigidbody2D rb;
     public float speedMove;
     public float jumpPower;
@@ -25,52 +24,46 @@ public class player : MonoBehaviour
     private bool isFacingRight = true;
     private Vector2 directionFlecha;
     private float disparoPasado;
-    
 
+    // Referencia al enemigo
+    private SeguirJugadorArea seguirJugadorArea;
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        
+        // Asumiendo que solo hay un enemigo, obtenemos la referencia al script SeguirJugadorArea.
+        seguirJugadorArea = FindObjectOfType<SeguirJugadorArea>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         checkMovement();
-        
     }
 
-    
-    private void checkMovement() {
-
-        //horizontal = x 0f 0 fuerza 
-
-        if (Mathf.Abs(horizontal) != 0f) { //si el vector es diferenete de 0 se activara su animacion
-            animPlayer.SetBool("isRunning", true); //SetBool actua como un sistema Clave - valor aqui cambiando el parametro a true puedes activar la animacion
-        } else {
+    private void checkMovement()
+    {
+        if (Mathf.Abs(horizontal) != 0f)
+        {
+            animPlayer.SetBool("isRunning", true);
+        }
+        else
+        {
             animPlayer.SetBool("isRunning", false);
         }
 
-
-
         if (checkGround.isGrounded)
         {
-           
             rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
             animPlayer.SetBool("isGrounded", true);
         }
-        else {
+        else
+        {
             animPlayer.SetBool("isGrounded", false);
-            
         }
-        
+
         rb.velocity = new Vector2(horizontal * speedMove, rb.velocity.y);
 
         if (!isFacingRight && horizontal > 0f)
-        { 
-            // la condicion evalua si va a la izquierda o hacia la derecha (si la componenete x es mayor que cero se desplaza a la derecha )
+        {
             isFacingRight = true;
             sprtRnd.flipX = false;
         }
@@ -79,16 +72,15 @@ public class player : MonoBehaviour
             isFacingRight = false;
             sprtRnd.flipX = true;
         }
-
     }
 
-    public void Move(InputAction.CallbackContext context) // el context --> relaciona el inputPlayer con este atributo context
+    public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
-
     }
 
-    public void jump() {
+    public void jump()
+    {
         if (checkGround.isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
@@ -100,55 +92,46 @@ public class player : MonoBehaviour
         if (Time.time > disparoPasado + tiempoDeEspera)
         {
             animPlayer.SetTrigger("shoot");
-            //horizontal = 0f;
             disparoPasado = Time.time;
             audioDisparo.Play();
         }
     }
-    /***
-     * en la escena se genera un GameObject flecha que sera el prefab de la flecha 
-     * 
-     * arrowController es el script del prefab, setDirection es del script 
-     * 
-     * gameObject generara una flecha en la escena, 
-     **/
+
     public void Shoot()
     {
-            
-            // Debug.Log("bang");
-            GameObject flecha = Instantiate(flechaPrfab, arrowOut.transform.position, Quaternion.identity);
+        GameObject flecha = Instantiate(flechaPrfab, arrowOut.transform.position, Quaternion.identity);
 
-            if (sprtRnd.flipX)
-            { //el personaje mira hacia la izquierda
-                directionFlecha = Vector2.left;
-            
+        if (sprtRnd.flipX)
+        {
+            directionFlecha = Vector2.left;
+        }
+        else
+        {
+            directionFlecha = Vector2.right;
+        }
 
-            }
-            else
-            { //el personaje mira hacia la derecha
-                directionFlecha = Vector2.right;
-                
-            }
-
-            flecha.GetComponent<arrowController>().setDirection(directionFlecha);
+        flecha.GetComponent<arrowController>().setDirection(directionFlecha);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //opther no se esta incializando cuando se llama le da un error con un valor nullo 
-        if ( other.gameObject.CompareTag("Enemy"))// || other.gameObject.CompareTag("Pinchos")
+        if (other.gameObject.CompareTag("Enemy"))
         {
             animPlayer.SetTrigger("death");
-            
+
+            // Llama a MatarJugador en el enemigo para que regrese a su posición inicial
+            if (seguirJugadorArea != null)
+            {
+                seguirJugadorArea.MatarJugador();
+            }
+
+            // Opcionalmente, reiniciar la escena
             // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
-
-    private void ldScene() {
+    private void ldScene()
+    {
         loadNewScene.Invoke();
     }
-
-
-
 }
