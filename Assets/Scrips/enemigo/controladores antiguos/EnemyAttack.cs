@@ -35,4 +35,7 @@ public class EnemyAttack : MonoBehaviour
             enemigo1Animator.SetBool("Attack", false);
         }
     }
+
+
+
 }
